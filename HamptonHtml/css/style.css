@@ -1,0 +1,77 @@
+
+/* Common Css */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ol, ul { list-style: none; }
+img { display: block; max-width: 100%; }
+
+button{border: none;cursor:pointer}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CACACA;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #CACACA;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: #CACACA;
+}
+  
+body { font-size: 18px; position: relative; font-family: "Raleway"; overflow-x: hidden; letter-spacing: 0.02em; color: #8C8C8C;}
+a { text-decoration: none; }
+.relative{position: relative;}
+
+.bg_common { background: #F7F9FB; }
+.bg_white { background: #fff; }
+
+.text_white { color: #fff; }
+.text_black { color: #08111E; }
+.bg_btn{background: #D9B872;}
+.font_secondary { font-family: "Poppins"; }
+
+h1 { font-weight: 700; font-size: 56px; line-height: 66px; }
+h2 { font-weight: 600; font-size: 45px; line-height: 55px; }
+h3 { font-weight: 700; font-size: 38px; line-height: 40px; }
+h4 { font-weight: 600; font-size: 32px; line-height: 45px; }
+h5 { font-weight: 700; font-size: 21px; line-height: 26px; }
+h5 { font-weight: 500; font-size: 20px; line-height: 30px; }
+
+.hm_container { max-width: 1270px; padding: 0 10px; width: 100%; margin: 0 auto; }
+/* Align */
+.hm_text-center { text-align: center; }
+.hm_text-right { text-align: right; }
+
+/* Flex classess */
+.hm_inline_block{display: inline-block;}
+.hm_flex { display: flex; }
+.hm_inline_flex { display: inline-flex; }
+.hm_flex-wrap { flex-wrap: wrap; }
+.hm_flex-column { flex-direction: column; }
+.hm_align-center { align-items: center; }
+.hm_content-end { justify-content: flex-end; }
+.hm_content-center { justify-content: center; }
+.hm_content-between { justify-content: space-between; }
+
+/* Spacing */
+.mr_25{margin-right: 25px;}
+.mr_20{margin-right: 20px;}
+
+
+.w_50{width: 49%;}
+.common_section{padding: 102px 0;}
+/* Header */
+.header{background: #0A182C url("/images/homeBanner.png") no-repeat center bottom; background-size: cover;position: relative;padding-bottom: 30px;}
+.header::before{position: absolute;content: "";background: #0A182C; width: 100%;height: 100%;inset: 0;opacity: 0.9;}
+.header a img{margin-right: 10px;}
+.header a{font-size: 17px;}
+.header_top{padding: 21px 0;}
+.header_logo{margin: 138px 0;}
+
+.header_menu{}
+.header_menu li{padding: 5px 10px; margin: 0 15px;}
+.header_menu li a{text-transform: uppercase;font-size: 15px; font-weight: 700;}
+
+/* Detail section */
+.detail_inner h3{font-weight: 700; font-size: 29px;color: #08111E;}
+.detail_inner p{margin-bottom: 20px;}
+.detail_inner p:last-child{margin-bottom: 0;}
